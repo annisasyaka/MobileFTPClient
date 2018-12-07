@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="com.annisasyaka.user.mobileftpclient.MainActivity">
+
+    <!-- Hostname -->
+    <TextView
+        style="@style/TextAppearBlack"
+        android:text="@string/server_name_or_ip_address"
+        />
+
+    <EditText
+        android:id="@+id/add_hostname"
+        style="@style/EditText" />
+
+    <!-- Username -->
+    <TextView
+        style="@style/TextAppearBlack"
+        android:text="@string/username"/>
+
+    <EditText
+        android:id="@+id/add_usrname"
+        style="@style/EditText"/>
+
+    <!-- Password -->
+    <TextView
+        style="@style/TextAppearBlack"
+        android:text="@string/password"/>
+
+    <EditText
+        android:id="@+id/add_password"
+        style="@style/EditText"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/ButtonLogin"
+        android:text="@string/login"/>
+</LinearLayout>

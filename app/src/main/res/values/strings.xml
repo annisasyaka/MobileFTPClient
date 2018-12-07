@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MobileFTPClient</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="hostname">Hostname</string>
+    <string name="server_name_or_ip_address">Server name or IP Address</string>
+    <string name="nodir">nodir</string>
+    <string name="downloading">Downloading</string>
+    <string name="verification_your_download_progress">verification your download progress</string>
+    <string name="are_you_sure_want_to_download">Are you sure want to download</string>
+    <string name="no">no</string>
+    <string name="yes">Yes</string>
+</resources>

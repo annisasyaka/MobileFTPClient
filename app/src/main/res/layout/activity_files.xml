@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/workindir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="false"
+            android:longClickable="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/nodir"
+            android:textColor="@android:color/black"
+            />
+    
+        <TextView
+            style="@style/TextTitel"
+            android:text="List Download From FTP Server"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            style="@style/TextSubTitle"
+            android:text="Longpress the file for download"/>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/download_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/downloading"
+        style="@style/TextTitel"
+        android:text="@string/downloading"
+        />
+
+    <TextView
+        style="@style/TextSubTitle"
+        android:text="@string/verification_your_download_progress"
+        />
+
+    <TextView
+        android:id="@+id/yousure"
+        style="@style/TextBlack"
+        android:text="@string/are_you_sure_want_to_download"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+    <Button
+        android:id="@+id/button_yes"
+        style="@style/ButtonVerif"
+        android:text="@string/yes"
+        />
+
+        <Button
+            android:id="@+id/button_no"
+            style="@style/ButtonVerif"
+            android:text="@string/no"/>
+
+    </LinearLayout>
+
+</LinearLayout>
